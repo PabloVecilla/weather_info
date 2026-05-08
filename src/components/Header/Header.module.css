@@ -1,0 +1,23 @@
+.header_page {
+    background-color: #0E2954;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+
+    & ul {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    & li {
+        display: inline-block;
+    }
+    & .citiesList{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,12 @@
+.footer_page {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    & a {
+        text-decoration: none;
+    }
+}
