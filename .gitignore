@@ -1,3 +1,6 @@
 .env
 node_modules
-package-lock.json
+dist/
+# generated on npm run build
+.DS_Store
+.vscode/
