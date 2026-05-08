@@ -86,7 +86,7 @@ src/
 1. App loads with default city ("Madrid")
 2. useEffect fetches weather data
 3. Data is stored in state (forecast)
-4. WeatherList groups data by day
+4. WeatherList groups data
 5. WeatherCard displays hourly data
 6. User can:
   - Search for a city
