@@ -71,12 +71,16 @@ https://api.openweathermap.org/data/2.5/forecast?q=London&appid=YOUR_API_KEY&uni
 - Props and data flow
 
 ## 📁 Project Structure
+```txt
 src/
-  components/
-    WeatherList/
-    WeatherCard/
-    Form/
-  App.jsx
+├── components/
+│   ├── WeatherList/
+│   ├── WeatherCard/
+│   └── Form/
+├── App.jsx
+├── App.css
+└── main.jsx
+```
 
 ## 🔄 App Flow
 1. App loads with default city ("Madrid")
