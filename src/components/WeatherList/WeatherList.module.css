@@ -1,9 +1,18 @@
 .weatherList_page {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px; 
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
 
-
+    & .prevNextContainer {
+        width: 300px;
+        max-width: 100vvw;
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
 }
